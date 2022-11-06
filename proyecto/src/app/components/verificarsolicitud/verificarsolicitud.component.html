@@ -1,0 +1,73 @@
+<main>
+    <div class="card text-center">
+      <div class="card-header bg-warning">
+        <h3>Verificar Solicitud</h3>
+      </div>
+      <div class="card-body">
+        <div class="card-header1 bg-dark">
+          <div class="teditar">
+            <p class="card-header text-start">VERIFICAR SOLICITUDES</p>
+          </div>
+          <p class="text-center">
+            Para poder verificar la solicitud de registro, seleccione verificar. Tambien puede 
+            buscar las solicitudes por su nombre de organizacion y tipo de organizacion, y ver 
+            los datos de los representantes de cada solicitud.
+          </p>
+          <hr>
+          <div class="card-body-1">
+            <div class="card-header row align-items-center">
+                <div class="col text-start ">
+                <label>Nombre de Organización:</label><br>
+                <input type="text" class="form-control" placeholder="Ingrese el nombre de su organización" id="nombreorganizacion"></div>
+                <div class="col text-start">
+                <label>Tipo de la Organizacion:</label><br>
+                <input type="text" class="form-control" placeholder="Ingrese el codigo de su organización" id="codigoorganizacion"></div>
+                <div class="col">
+                  <br>
+                  <input type="search" class="form-control" name="buscar" id="buscar" placeholder="Buscar">
+                </div>
+            </div><br>
+            <div>
+                <table class="table">
+                    <thead class="bg-primary">
+                      <tr>
+                        <th scope="col">Representantes</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Solicitudes</th>
+                        <th scope="col">Numero de Expediente</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>Representante 01 <button class="btn btn bg-warning" routerLink="footer">ver</button></th>
+                        <td>01/09/2022</td>
+                        <td><button class="btn btn bg-warning">VER</button></td>
+                        <td>001-456-FT</td>
+                      </tr>
+                      <tr>
+                        <th>Representante 02 <button class="btn btn bg-warning" routerLink="footer">ver</button></th>
+                        <td>01/09/2022</td>
+                        <td><button class="btn btn bg-warning">VER</button></td>
+                        <td>001-456-FT</td>
+                      </tr>
+                      <tr>
+                        <th>Representante 03 <button class="btn btn bg-light" routerLink="footer">ver</button></th>
+                        <td>01/09/2022</td>
+                        <td><button class="btn btn bg-light">VER</button></td>
+                        <td>WE3-4DY-R0</td>
+                      </tr>
+                      <tr>
+                        <th>Representante 04 <button class="btn btn bg-light" routerLink="footer">ver</button></th>
+                        <td>01/09/2022</td>
+                        <td><button class="btn btn bg-light">VER</button></td>
+                        <td>099-FF0-12</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    
